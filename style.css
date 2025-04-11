@@ -28,6 +28,7 @@ html , body{
     border-radius: 10px;
     padding: 1rem;
     font-family: sans-serif;
+    user-select: none;
 }
 /* top part */
 .top{
@@ -50,6 +51,7 @@ html , body{
     border-radius: 4px;
     color: #00000070;
     font-weight: 500;
+    cursor: pointer;
 }
 /* mid part */
 .mid > p{
@@ -73,4 +75,30 @@ html , body{
     font-size: 0.75rem;
     font-weight: 700;
     opacity: 0.95;
+}
+/* bottom part */
+.bottom{
+    border-top: 1px solid #00000025;
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer > p{
+    color: #2e2e2e;
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+.offer > p:last-child{
+    opacity: 0.35;
+    font-size: 0.75rem;
+}
+.c-t-a{
+    background-color: #2e2e2e;
+    color: aliceblue;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75em 0.85rem;
+    cursor: pointer;
 }
