@@ -16,6 +16,7 @@ html , body{
     padding: 1rem;
     background-color: #2e2e2e;
 }
+/* card */
 .card{
     width: fit-content;
     /* height: 200px; */
@@ -28,6 +29,7 @@ html , body{
     padding: 1rem;
     font-family: sans-serif;
 }
+/* top part */
 .top{
     display: flex;
     justify-content: space-between;
@@ -49,4 +51,26 @@ html , body{
     color: #00000070;
     font-weight: 500;
 }
-
+/* mid part */
+.mid > p{
+    font-size: 0.95rem;
+    font-weight: 700;
+    opacity: 0.85;
+    margin-bottom: -0.25rem;
+}
+.mid > p > span{
+    margin-left: 0.3rem;
+    opacity: 0.25;
+    font-size: 0.75rem;
+}
+.mid > h2{
+    margin: 0.55rem 0;
+}
+.mid > .job > span{
+    background-color: #00000025;
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    opacity: 0.95;
+}
